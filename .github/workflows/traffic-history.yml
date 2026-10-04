@@ -1,0 +1,141 @@
+name: Save traffic history
+
+on:
+  schedule:
+    # Ejecutar diariamente a las 06:15 UTC
+    - cron: "15 6 * * *"
+
+  # Permite ejecutarlo manualmente desde GitHub Actions
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  save-traffic:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Collect traffic data
+        env:
+          GH_TOKEN: ${{ secrets.TRAFFIC_TOKEN }}
+          REPOSITORY: ${{ github.repository }}
+        run: |
+          python <<'PY'
+          import csv
+          import json
+          import os
+          import urllib.request
+          from pathlib import Path
+
+          repository = os.environ["REPOSITORY"]
+          token = os.environ["GH_TOKEN"]
+
+          headers = {
+              "Accept": "application/vnd.github+json",
+              "Authorization": f"Bearer {token}",
+              "X-GitHub-Api-Version": "2022-11-28",
+              "User-Agent": "BOK-Traffic-History"
+          }
+
+          def github_api(endpoint):
+              request = urllib.request.Request(
+                  f"https://api.github.com/repos/{repository}/{endpoint}",
+                  headers=headers
+              )
+
+              with urllib.request.urlopen(request) as response:
+                  return json.load(response)
+
+          views = github_api("traffic/views")
+          clones = github_api("traffic/clones")
+
+          records = {}
+
+          for item in views.get("views", []):
+              date = item["timestamp"][:10]
+
+              records.setdefault(date, {
+                  "views": 0,
+                  "unique_visitors": 0,
+                  "clones": 0,
+                  "unique_cloners": 0
+              })
+
+              records[date]["views"] = item["count"]
+              records[date]["unique_visitors"] = item["uniques"]
+
+          for item in clones.get("clones", []):
+              date = item["timestamp"][:10]
+
+              records.setdefault(date, {
+                  "views": 0,
+                  "unique_visitors": 0,
+                  "clones": 0,
+                  "unique_cloners": 0
+              })
+
+              records[date]["clones"] = item["count"]
+              records[date]["unique_cloners"] = item["uniques"]
+
+          path = Path("analytics/traffic.csv")
+          path.parent.mkdir(parents=True, exist_ok=True)
+
+          existing = {}
+
+          if path.exists():
+              with path.open(newline="", encoding="utf-8") as file:
+                  reader = csv.DictReader(file)
+
+                  for row in reader:
+                      existing[row["date"]] = {
+                          "views": int(row["views"]),
+                          "unique_visitors": int(row["unique_visitors"]),
+                          "clones": int(row["clones"]),
+                          "unique_cloners": int(row["unique_cloners"])
+                      }
+
+          # Actualiza las fechas que GitHub todavía conserva.
+          # Las fechas anteriores permanecen intactas.
+          existing.update(records)
+
+          with path.open("w", newline="", encoding="utf-8") as file:
+              writer = csv.writer(file)
+
+              writer.writerow([
+                  "date",
+                  "views",
+                  "unique_visitors",
+                  "clones",
+                  "unique_cloners"
+              ])
+
+              for date in sorted(existing):
+                  row = existing[date]
+
+                  writer.writerow([
+                      date,
+                      row["views"],
+                      row["unique_visitors"],
+                      row["clones"],
+                      row["unique_cloners"]
+                  ])
+
+          PY
+
+      - name: Commit traffic history
+        run: |
+          if git diff --quiet analytics/traffic.csv; then
+            echo "No traffic changes to save."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add analytics/traffic.csv
+          git commit -m "Update traffic statistics"
+          git push
