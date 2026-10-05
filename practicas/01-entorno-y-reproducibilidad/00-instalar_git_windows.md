@@ -77,4 +77,4 @@ git --version
 Si **git** se instaló correctamente, el comando te regresará el número de la versión instalada.
 
 ---
-[← Volver al módulo](../../modulos/01-entorno-y-reproducibilidad/01-entorno-y-reproducibilidad_0.md)
+[← Volver al módulo](../../modulos/01-entorno-y-reproducibilidad/01-entorno-y-reproducibilidad.md)

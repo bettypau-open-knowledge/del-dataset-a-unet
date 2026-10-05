@@ -5,10 +5,14 @@ el uso de entornos independientes y las herramientas que utilizaremos
 para construir un entorno reproducible para el taller.
 
 ---
+# 1.1 Problema de dependencias y concepto de entorno
+Antes de comenzar a trabajar con imágenes y modelos, necesitamos preparar un entorno de trabajo que podamos identificar, administrar y reproducir.
+
+En esta sección veremos por qué las dependencias y sus versiones pueden afectar la ejecución de un proyecto, prepararemos las herramientas necesarias y practicaremos con **Conda** la creación y administración de entornos de Python y de sus paquetes.
 
 ### 📽️ Presentación
 
-[**Ver presentación del tema →**](../../recursos/presentaciones/01-entorno-y-reproducibilidad.pdf)
+[**Ver presentación del tema →**](../../recursos/presentaciones/01-01-entorno-y-reproducibilidad.pdf)
 
 ---
 
@@ -83,7 +87,8 @@ Una vez instalado VS Code:
 > [!IMPORTANT]
 > Verifica que la extensión seleccionada sea la publicada por **Microsoft**.
 
-![Extensión de Python para Visual Studio Code](../../assets/imagenes/1_extension_python.png)
+![Extensión de Python para Visual Studio Code](../../assets/imagenes/modulo_01/1_extension_python.png)
+
 
 ### 🚀 Instalar la extensión de Jupyter
 
@@ -99,7 +104,7 @@ Para instalarlo:
 > [!IMPORTANT]
 > Verifica que la extensión seleccionada sea la publicada por **Microsoft**.
 
-![Extensión de Jupyter para Visual Studio Code](../../assets/imagenes/1_extension_jupyter.png)
+![Extensión de Jupyter para Visual Studio Code](../../assets/imagenes/modulo_01/1_extension_jupyter.png)
 
 ### ✨ Instalar la extensión de Colab
 
@@ -115,7 +120,7 @@ Para instalarlo:
 > [!IMPORTANT]
 > Verifica que la extensión seleccionada sea la publicada por **Google**.
 
-![Extensión de Colab para Visual Studio Code](../../assets/imagenes/1_extension_colab.png)
+![Extensión de Colab para Visual Studio Code](../../assets/imagenes/modulo_01/1_extension_colab.png)
 
 ---
 
@@ -135,13 +140,26 @@ Si el comando no es reconocido o Git no está disponible, sigue las instruccione
 
 | Sistema operativo | Si Git no está disponible |
 |---|---|
-| 🪟 **Windows** | [Instalar **Git for Windows** →](../../practicas/01-entorno-y-reproducibilidad/instalar_git_windows.md) |
+| 🪟 **Windows** | [Instalar **Git for Windows** →](../../practicas/01-entorno-y-reproducibilidad/00-instalar_git_windows.md) |
 | 🐧 **Ubuntu/Debian** | Ejecutar `sudo apt install git` |
 | 🍎 **macOS** | Ejecutar `xcode-select --install` |
 
 > [!NOTE]
 > El comando `git --version` es el mismo en **Windows, Linux y macOS**.
 > Lo que cambia es el procedimiento de instalación en caso de que Git no esté disponible.
+
+---
+
+## 🧪 Prácticas
+
+1. [Comandos esenciales de Conda →](../../practicas/01-entorno-y-reproducibilidad/entorno-y-reproducibilidad/01-comandos_conda.md)
+2. [Trabajando con environment.yml →](../../practicas/01-entorno-y-reproducibilidad/entorno-y-reproducibilidad/02-trabajando_environment_yml.md)
+
+---
+
+## ➡️ Siguiente tema
+
+[Directorio de trabajo y tipos de rutas →](./01-02-directorio-trabajo-y-tipos-rutas.md)
 
 ---
 

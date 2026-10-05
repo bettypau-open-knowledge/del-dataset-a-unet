@@ -18,7 +18,7 @@ pipeline que permita trabajar de manera organizada y reproducible.
 
 | Módulo | Tema | Contenido |
 |:---:|---|---|
-| **01** | 🖥️ **[Entorno de desarrollo y reproducibilidad](./01-entorno-y-reproducibilidad/01-entorno-y-reproducibilidad_0.md)** | Configuración del entorno, control de versiones y buenas prácticas. |
+| **01** | 🖥️ **[Entorno de desarrollo y reproducibilidad](./01-entorno-y-reproducibilidad/01-01-entorno-y-reproducibilidad.md)** | Configuración del entorno, control de versiones y buenas prácticas. |
 | **02** | 🗃️ **Ingeniería del dataset** | Obtención, organización, limpieza y análisis de datos. |
 | **03** | ⚙️ **Procesamiento de imágenes y máscaras** | Técnicas de preprocesamiento, aumento de datos y manejo de máscaras de segmentación. |
 | **04** | 🧩 **Diseño experimental y pipeline de datos** | Estrategias de experimentación y construcción de pipelines. |
