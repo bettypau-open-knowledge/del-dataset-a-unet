@@ -176,8 +176,9 @@ Para indicar a Git qué archivos no queremos versionar podemos utilizar un archi
 1. [Introducción a Introducción a Git →](../../practicas/01-entorno-y-reproducibilidad/git-colab-drive/05-introduccion-git.md)
 2. [Configuración de la conexión SSH con GitHub →](../../practicas/01-entorno-y-reproducibilidad/git-colab-drive/06-configuracion-conexion-github.md)
 3. [Introducción a .gitignore →](../../practicas/01-entorno-y-reproducibilidad/git-colab-drive/07-introduccion-gitignore.md)
+4. [Introducción a Google Colab desde VS Code →](../../practicas/01-entorno-y-reproducibilidad/git-colab-drive/08-introduccion-vscode-colab.md)
+5. [Conexión entre Google Colab, GitHub y Google Drive →](../../practicas/01-entorno-y-reproducibilidad/git-colab-drive/09-conexion-colab-github-drive.md)
 ---
-
 <!--
 ## ➡️ Siguiente tema
 

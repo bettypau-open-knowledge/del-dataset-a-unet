@@ -17,7 +17,11 @@ Introducción al recorrido, dinámica de trabajo, módulos y calendario.
 
 Introducción al problema de las dependencias de software y el uso de entornos independientes.
 
-[Ver presentación →](presentaciones/01-entorno-y-reproducibilidad.pdf)
+[Ver presentación de Entorno y reproducibilidad →](presentaciones/01-01-entorno-y-reproducibilidad.pdf)
+
+[Ver presentación de Directorio de trabajo y tipos de rutas →](presentaciones/01-02-directorios-trabajo-y-tipos-rutas.pdf)
+
+[Ver presentación de Git, Github, Google Colab y Google Drive →](presentaciones/01-03-git-github-colab.pdf)
 
 ---
 
