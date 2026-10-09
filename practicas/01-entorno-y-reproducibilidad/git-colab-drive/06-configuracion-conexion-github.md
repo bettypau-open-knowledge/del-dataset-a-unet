@@ -180,10 +180,10 @@ Ahora indicaremos a SSH qué clave privada debe utilizar cuando se conecte con G
 Abre el archivo de configuración SSH desde PowerShell:
 
 ```powershell
-notepad $HOME\.ssh\config
+code $HOME\.ssh\config
 ```
 
-Si el archivo todavía no existe, Notepad permitirá crearlo.
+Si el archivo todavía no existe, code abrirá en VS Code un archivo para guardarlo en la posición $HOME\.ssh, una vez modificado, se debe guardar.
 
 Agrega:
 

@@ -179,12 +179,11 @@ Para indicar a Git qué archivos no queremos versionar podemos utilizar un archi
 4. [Introducción a Google Colab desde VS Code →](../../practicas/01-entorno-y-reproducibilidad/git-colab-drive/08-introduccion-vscode-colab.md)
 5. [Conexión entre Google Colab, GitHub y Google Drive →](../../practicas/01-entorno-y-reproducibilidad/git-colab-drive/09-conexion-colab-github-drive.md)
 ---
-<!--
-## ➡️ Siguiente tema
 
-[Directorio de trabajo y tipos de rutas →](./01-02-directorio-trabajo-y-tipos-rutas.md)
+## ➡️ Completa el reto del módulo
 
--->
+[Encuentra al gato →](../../practicas/01-entorno-y-reproducibilidad/10-reto-modulo-1.md)
+
 ---
 [← Volver a página anterior](./01-02-directorio-trabajo-y-tipos-rutas.md)
 
