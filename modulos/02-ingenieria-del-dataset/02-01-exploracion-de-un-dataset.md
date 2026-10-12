@@ -37,7 +37,7 @@ Para poder ejecutar las prácticas de este módulo y de los siguientes de manera
 
 ## 🧪 Prácticas
 
-1. [Exploración inicial de un dataset de segmentación →](../../practicas/02-ingenieria-del-dataset/exploracion-de-un-dataset/01-exploracion-inicial-de-un-dataset)
+1. [Exploración inicial de un dataset de segmentación →](../../practicas/02-ingenieria-del-dataset/exploracion-de-un-dataset/01-exploracion-inicial-de-un-dataset.md)
 2. [Exploración inicial del Oxford-IIIT Pet Dataset →](../../practicas/02-ingenieria-del-dataset/exploracion-de-un-dataset/02-exploracion-inicial-del-oxford-dataset.md)
 
 
