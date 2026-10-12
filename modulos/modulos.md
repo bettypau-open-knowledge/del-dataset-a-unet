@@ -19,7 +19,7 @@ pipeline que permita trabajar de manera organizada y reproducible.
 | Módulo | Tema | Contenido |
 |:---:|---|---|
 | **01** | 🖥️ **[Entorno de desarrollo y reproducibilidad](./01-entorno-y-reproducibilidad/01-01-entorno-y-reproducibilidad.md)** | Configuración del entorno, control de versiones y buenas prácticas. |
-| **02** | 🗃️ **Ingeniería del dataset** | Obtención, organización, limpieza y análisis de datos. |
+| **02** | 🗃️ **[Ingeniería del dataset](./02-ingenieria-del-dataset/02-01-exploracion-de-un-dataset.md)** | Obtención, organización, limpieza y análisis de datos. |
 | **03** | ⚙️ **Procesamiento de imágenes y máscaras** | Técnicas de preprocesamiento, aumento de datos y manejo de máscaras de segmentación. |
 | **04** | 🧩 **Diseño experimental y pipeline de datos** | Estrategias de experimentación y construcción de pipelines. |
 | **05** | 🧠 **De la convolución a U-Net** | Fundamentos de redes convolucionales y arquitectura U-Net para segmentación de imágenes. |

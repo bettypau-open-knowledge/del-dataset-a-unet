@@ -1,11 +1,15 @@
-# 01 · Entorno y reproducibilidad
+# Módulo 1 · Entorno y reproducibilidad
 
-En este tema se introduce el problema de las dependencias de software,
-el uso de entornos independientes y las herramientas que utilizaremos
-para construir un entorno reproducible para el taller.
+En este tema se introduce el problema de las dependencias de software, el uso de entornos independientes y las herramientas que utilizaremos para construir un entorno reproducible para el taller.
+
+## 📚 Temas de la unidad
+
+1. **Entorno de desarrollo y reproducibilidad:** identificación de dependencias, gestión de entornos virtuales con Conda y uso de archivos `environment.yml` para crear y mantener entornos reproducibles.
+2. **[Directorio de trabajo y tipos de rutas:](01-02-directorio-trabajo-y-tipos-rutas.md)** organización de proyectos, ejecución de Jupyter Notebooks en Visual Studio Code, identificación del directorio de trabajo y manejo de rutas absolutas y relativas mediante `pathlib`.
+3. **[Git, GitHub, Google Colab y Google Drive:](./01-03-git-colab-drive.md)** control de versiones y gestión de repositorios locales y remotos, configuración de la conexión SSH, uso de `.gitignore` e integración de herramientas para ejecutar código en la nube y almacenar resultados de forma persistente.
 
 ---
-# 1.1 Problema de dependencias y concepto de entorno
+# 1.1 · Problema de dependencias y concepto de entorno
 Antes de comenzar a trabajar con imágenes y modelos, necesitamos preparar un entorno de trabajo que podamos identificar, administrar y reproducir.
 
 En esta sección veremos por qué las dependencias y sus versiones pueden afectar la ejecución de un proyecto, prepararemos las herramientas necesarias y practicaremos con **Conda** la creación y administración de entornos de Python y de sus paquetes.
@@ -18,16 +22,13 @@ En esta sección veremos por qué las dependencias y sus versiones pueden afecta
 
 # 🛠️ Preparación del entorno de trabajo
 
-Antes de comenzar con las actividades del taller, prepararemos las
-herramientas que utilizaremos para desarrollar y ejecutar nuestros proyectos.
+Antes de comenzar con las actividades del taller, prepararemos las herramientas que utilizaremos para desarrollar y ejecutar nuestros proyectos.
 
-En esta guía encontrarás las instrucciones necesarias para instalar y
-configurar el entorno de trabajo.
+En esta guía encontrarás las instrucciones necesarias para instalar y configurar el entorno de trabajo.
 
 ## 🐍 Instalación de Miniconda
 
-Durante el taller utilizaremos **Miniconda** para disponer de Conda
-sin instalar de forma predeterminada una colección extensa de paquetes.
+Durante el taller utilizaremos **Miniconda** para disponer de Conda sin instalar de forma predeterminada una colección extensa de paquetes.
 
 Sigue las instrucciones del instalador correspondientes a tu sistema operativo.
 

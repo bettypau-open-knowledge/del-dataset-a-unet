@@ -1,0 +1,21 @@
+name: taller-unet
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+  - pip
+  - ipykernel
+  - numpy
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - scikit-image
+  - pandas
+  - pillow
+  - tqdm
+  - pip:
+      - opencv-python
+      - torch_optimizer
+      - albumentations
