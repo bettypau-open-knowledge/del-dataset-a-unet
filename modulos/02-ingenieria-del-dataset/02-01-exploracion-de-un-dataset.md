@@ -6,13 +6,12 @@ En este módulo abordaremos la **ingeniería del dataset**, comenzando por la ex
 
 El objetivo es desarrollar un proceso organizado y reproducible para **conocer, documentar y evaluar un dataset antes de utilizarlo en las siguientes etapas del proyecto**.
 
-<!--
 ## 📚 Temas de la unidad
 
 1. **Exploración de un dataset de segmentación:** identificación de imágenes, máscaras, etiquetas, metadatos y estructuras de directorios.
 2. **Inventario y configuración del dataset:** identificación y registro de los archivos disponibles, sus características y la configuración necesaria para trabajar con ellos.
 3. **Auditoría y análisis exploratorio:** revisión de la integridad, consistencia y características de los datos para detectar posibles problemas antes de su procesamiento.
--->
+
 ---
 
 # 2.1 · Exploración de un dataset de segmentación
@@ -25,7 +24,7 @@ Estos conceptos nos permitirán comprender qué información recibe un modelo, d
 
 ### 📽️ Presentación
 
-[**Ver presentación del tema →**](../../recursos/presentaciones/02-ingenieria-del-dataset.pdf)
+[**Ver presentación del tema →**](../../recursos/presentaciones/02-01-ingenieria-del-dataset.pdf)
 
 ### Requerimientos
 
@@ -41,13 +40,12 @@ Para poder ejecutar las prácticas de este módulo y de los siguientes de manera
 2. [Exploración inicial del Oxford-IIIT Pet Dataset →](../../practicas/02-ingenieria-del-dataset/exploracion-de-un-dataset/02-exploracion-inicial-del-oxford-dataset.md)
 
 
-
 ---
-<!--
+
 ## ➡️ Siguiente tema
 
-[Inventario y configuración del dataset →](./02-02-inventario-y-configuracion.md)
--->
+[Inventario y configuración del dataset →](./02-02-inventario-y-configuracion-del-dataset.md)
+
 ---
 
 [← Volver al índice de módulos](../modulos.md)
