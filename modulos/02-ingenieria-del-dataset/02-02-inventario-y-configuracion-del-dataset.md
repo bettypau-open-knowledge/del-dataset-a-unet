@@ -17,11 +17,11 @@ Estos recursos nos permitirán trabajar con los datos de manera más organizada 
 1. [Inventario y configuración del minidataset →](../../practicas/02-ingenieria-del-dataset/inventario-y-configuracion-del-dataset/03-inventario-y-configuracion-de-minidataset.md)
 2. [Inventario y configuración del Oxford-IIIT Pet Dataset →](../../practicas/02-ingenieria-del-dataset/inventario-y-configuracion-del-dataset/04-inventario-y-configuracion-del-oxford-dataset.md)
 ---
-<!--
+
 ## ➡️ Siguiente tema
 
-[Auditoría y análisis exploratorio →](./02-03-auditoria-y-analisis-exploratorio.md)
--->
+[Análisis exploratorio del dataset →](./02-03-analisis-exploratorio-del-dataset.md)
+
 ---
 
 [← Volver a página anterior](./02-01-exploracion-dataset.md)
