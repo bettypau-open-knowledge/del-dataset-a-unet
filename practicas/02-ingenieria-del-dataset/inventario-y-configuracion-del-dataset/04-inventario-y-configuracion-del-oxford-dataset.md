@@ -60,7 +60,7 @@ exploracion_oxford_pet/
 │   │       │   ├── trainval.txt
 │   │       │   └── test.txt
 │   │       └── images/
-│   └── manifest/
+│   └── manifests/
 │       └── manifest.csv
 └── notebooks/
     └── inventario_oxford_pet.ipynb
