@@ -64,19 +64,8 @@ Por ello, utilizamos un **intervalo de confianza**, que expresa un rango de valo
 
 Cuando seleccionamos una muestra aleatoria simple sin reemplazo de una población finita, podemos escribir el intervalo aproximado como:
 
-$$
-\boxed{
-\hat{p}
--
-Z\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}
-\sqrt{\frac{N-n}{N-1}}
-\leq
-p
-\leq
-\hat{p}
-+
-Z\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}
-\sqrt{\frac{N-n}{N-1}}
+$$ \boxed{
+\hat{p} - Z\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\sqrt{\frac{N-n}{N-1}}\leq p \leq\hat{p}+Z\sqrt{\frac{\hat{p}(1-\hat{p})}{n}}\sqrt{\frac{N-n}{N-1}}
 }
 $$
 
@@ -176,9 +165,7 @@ $$
 **Paso 5. Factorizamos $n$.**
 
 $$
-n\left[E^2N-E^2+Z^2p_e(1-p_e)\right]
-=
-Z^2p_e(1-p_e)N
+n\left[E^2N-E^2+Z^2p_e(1-p_e)\right] = Z^2p_e(1-p_e)N
 $$
 
 **Paso 6. Despejamos $n$.**
