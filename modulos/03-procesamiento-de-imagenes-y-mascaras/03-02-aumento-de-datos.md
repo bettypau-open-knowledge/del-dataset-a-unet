@@ -189,7 +189,13 @@ Esto permite evaluar el comportamiento del modelo sobre muestras que no han sido
 ## 🧪 Práctica
 
 1. [Aumento de datos con albumentations →](../../practicas/03-procesamiento-de-imagenes-y-mascaras/02-aumento-de-datos.md)
+2. [Estrategias de redimensionamiento con Albumentations →](../../practicas/03-procesamiento-de-imagenes-y-mascaras/03-estrategias-redimensionamiento.md)
 
+
+---
+## ➡️ Completa el reto del módulo
+
+[Encuentra al gato →](../../practicas/02-ingenieria-del-dataset/07-reto-modulo-2.md)
 <!--
 ---
 
