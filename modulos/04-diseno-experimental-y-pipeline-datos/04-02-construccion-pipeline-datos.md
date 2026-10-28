@@ -92,11 +92,6 @@ Retomaremos los archivos de configuración, el manifest y las particiones experi
 - Inspeccionar las dimensiones y los tipos de datos de las muestras y los lotes.
 - Visualizar fotografías y máscaras recuperadas desde el pipeline para comprobar que se mantienen correctamente asociadas.
 
-> [!IMPORTANT]
-> Antes de utilizar un pipeline para entrenar un modelo, es necesario comprobar que las imágenes y máscaras se recuperen correctamente, que sus dimensiones sean compatibles y que las etiquetas de segmentación se conserven.
->
-> También debemos verificar que las transformaciones geométricas se apliquen de manera sincronizada y que las particiones experimentales definidas anteriormente no se modifiquen accidentalmente.
-
 El punto de control consistirá en obtener **lotes de imágenes y máscaras correctamente construidos, con dimensiones y tipos verificados, y cuya correspondencia pueda comprobarse visualmente**.
 
 ---
