@@ -75,24 +75,8 @@ Estos conocimientos nos permitirán comprender cómo se conectan las etapas de p
 
 ## 🧪 Prácticas
 
-1. [Aumento de datos con albumentations →](../../practicas/03-procesamiento-de-imagenes-y-mascaras/02-aumento-de-datos.md)
-
-Las actividades prácticas de este tema estarán orientadas a construir y verificar un pipeline de datos para segmentación de imágenes mediante PyTorch.
-
-Retomaremos los archivos de configuración, el manifest y las particiones experimentales generadas en las prácticas anteriores para desarrollar un procedimiento que permita:
-
-- Recuperar los registros correspondientes a los conjuntos de entrenamiento, validación y prueba.
-- Construir una clase personalizada que herede de `torch.utils.data.Dataset`.
-- Implementar los métodos `__init__()`, `__len__()` y `__getitem__()`.
-- Leer fotografías y máscaras de segmentación desde sus rutas.
-- Aplicar transformaciones geométricas sincronizadas a imágenes y máscaras.
-- Convertir las imágenes y máscaras a tensores con dimensiones y tipos adecuados.
-- Crear objetos `DataLoader` para organizar las muestras en lotes.
-- Configurar los parámetros `batch_size`, `shuffle` y `num_workers`.
-- Inspeccionar las dimensiones y los tipos de datos de las muestras y los lotes.
-- Visualizar fotografías y máscaras recuperadas desde el pipeline para comprobar que se mantienen correctamente asociadas.
-
-El punto de control consistirá en obtener **lotes de imágenes y máscaras correctamente construidos, con dimensiones y tipos verificados, y cuya correspondencia pueda comprobarse visualmente**.
+1. [Construcción del pipeline de datos del minidataset con PyTorch →](../../practicas/04-diseno-experimental-y-pipeline-datos/construccion-pipeline-de-datos/03-construccion-pipeline-datos-minidataset.md)
+2. [Construcción del pipeline de datos del Oxford Pet Dataset](../../practicas/04-diseno-experimental-y-pipeline-datos/construccion-pipeline-de-datos/04-construccion-pipeline-datos-oxford-dataset.md)
 
 ---
 
