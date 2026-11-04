@@ -76,7 +76,7 @@ Estos conocimientos nos permitirán comprender cómo se conectan las etapas de p
 ## 🧪 Prácticas
 
 1. [Construcción del pipeline de datos del minidataset con PyTorch →](../../practicas/04-diseno-experimental-y-pipeline-datos/construccion-pipeline-de-datos/03-construccion-pipeline-datos-minidataset.md)
-2. [Construcción del pipeline de datos del Oxford Pet Dataset](../../practicas/04-diseno-experimental-y-pipeline-datos/construccion-pipeline-de-datos/04-construccion-pipeline-datos-oxford-dataset.md)
+2. [Construcción del pipeline de datos del Oxford Pet Dataset →](../../practicas/04-diseno-experimental-y-pipeline-datos/construccion-pipeline-de-datos/04-construccion-pipeline-datos-oxford-dataset.md)
 
 ---
 
