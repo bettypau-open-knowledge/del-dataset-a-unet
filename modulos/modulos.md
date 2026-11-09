@@ -22,8 +22,8 @@ pipeline que permita trabajar de manera organizada y reproducible.
 | **02** | 🗃️ **[Ingeniería del dataset](./02-ingenieria-del-dataset/02-01-exploracion-de-un-dataset.md)** | Obtención, organización, limpieza y análisis de datos. |
 | **03** | ⚙️ **[Procesamiento de imágenes y máscaras](./03-procesamiento-de-imagenes-y-mascaras/03-01-fundamentos-y-procesamiento-basico.md)** | Técnicas de preprocesamiento, aumento de datos y manejo de máscaras de segmentación. |
 | **04** | 🧩 **[Diseño experimental y pipeline de datos](./04-diseno-experimental-y-pipeline-datos/04-01-diseno-conjuntos-experimentales.md)** | Estrategias de experimentación y construcción de pipelines. |
-| **05** | 🧠 **De la convolución a U-Net** | Fundamentos de redes convolucionales y arquitectura U-Net para segmentación de imágenes. |
-| **06** | 📊 **Entrenamiento, evaluación y análisis** | Métricas de evaluación, visualización de resultados y análisis de desempeño. |
+| **05** | 🧠 **[De la convolución a U-Net](./05-de-la-convolucion-a-u-net/05-01-convolucion-y-fundamentos-de-cnn.md)** | Fundamentos de redes convolucionales y arquitectura U-Net para segmentación de imágenes. |
+| **06** | 📊 **[Entrenamiento, evaluación y análisis](./06-entrenamiento-evaluacion-analisis/06-01-fundamentos-y-proceso-entrenamiento.md)** | Métricas de evaluación, visualización de resultados y análisis de desempeño. |
 
 ---
 

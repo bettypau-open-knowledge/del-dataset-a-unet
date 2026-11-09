@@ -184,15 +184,11 @@ Al finalizar este tema comprenderemos que **el aprendizaje de U-Net es un proces
 
 
 ---
-<!--
+
 ## ➡️ Siguiente tema
 
-**Entrenamiento, evaluación y análisis de resultados**
+[Entrenamiento, evaluación y análisis de resultados →](./06-02-entrenamiento-evaluacion-analisis.md)
 
-En el siguiente tema utilizaremos los fundamentos del proceso de entrenamiento para ejecutar el aprendizaje de nuestro modelo, registrar su comportamiento y evaluar las predicciones obtenidas.
-
-También estudiaremos cómo interpretar las métricas de segmentación y analizar los resultados para identificar aciertos, errores y posibles oportunidades de mejora.
--->
 ---
 
 [← Volver al repositorio principal del taller](https://github.com/bettypau-open-knowledge/del-dataset-a-unet)
